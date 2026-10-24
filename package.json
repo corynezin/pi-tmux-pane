@@ -1,0 +1,18 @@
+{
+  "name": "pi-tmux-pane",
+  "version": "0.1.0",
+  "description": "Pi extension: work in a tmux pane the user can also see. Send input, wait for a regex/idle/timeout, and get back only the new output via LCS diffing.",
+  "keywords": ["pi-package", "pi", "pi-extension", "tmux"],
+  "license": "MIT",
+  "author": "Cory Nezin <cory.nezin@gmail.com>",
+  "repository": { "type": "git", "url": "git+https://github.com/corynezin/pi-tmux-pane.git" },
+  "homepage": "https://github.com/corynezin/pi-tmux-pane#readme",
+  "bugs": "https://github.com/corynezin/pi-tmux-pane/issues",
+  "type": "module",
+  "files": ["extensions", "README.md", "LICENSE"],
+  "pi": { "extensions": ["./extensions/tmux-pane.ts"] },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  }
+}
